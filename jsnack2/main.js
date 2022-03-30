@@ -9,9 +9,9 @@ const userWord1 = prompt("INserisci una parola");
 const userWord2 = prompt("INserisci una parola");
 
 
-if (userWord1.length > userWord2.length){
+if (userWord1.length < userWord2.length){
     console.log(userWord1 + " " +userWord2);
-} else if (userWord1.length < userWord2.length){
+} else if (userWord1.length > userWord2.length){
     console.log(userWord2 + " " + userWord1 );
 } else {
     console.log("le parole sono uguali");
